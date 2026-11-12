@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="baySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2B6777"/>
+      <stop offset="100%" stop-color="#F2CC8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#baySky)"/>
+  <circle cx="220" cy="145" r="48" fill="#FFF1C1"/>
+  <path d="M460 320 L555 215 L635 235 L700 320 Z" fill="#3D5A6C"/>
+  <rect x="0" y="320" width="800" height="80" fill="#276E90"/>
+  <path d="M0 385 Q240 355 500 390 T800 380 L800 500 L0 500 Z" fill="#1F5C3A"/>
+  <line x1="250" y1="270" x2="250" y2="410" stroke="#F8F7F2" stroke-width="5"/>
+  <polygon points="252,272 335,294 252,316" fill="#D99B26"/>
+  <polygon points="105,425 170,335 235,425" fill="#F8F7F2"/>
+  <text x="42" y="64" fill="#F8F7F2" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Acampada de San Jorge · Bahía de Algeciras</text>
+</svg>
+

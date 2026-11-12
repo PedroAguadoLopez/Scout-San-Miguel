@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E4D3B"/>
+      <stop offset="55%" stop-color="#3E7C59"/>
+      <stop offset="100%" stop-color="#E9B872"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyG)"/>
+  <circle cx="620" cy="140" r="54" fill="#F7D488" opacity="0.9"/>
+  <path d="M0 320 L140 190 L280 285 L430 160 L600 290 L730 210 L800 265 L800 500 L0 500 Z" fill="#2A5842"/>
+  <path d="M0 365 L190 270 L360 345 L560 255 L800 355 L800 500 L0 500 Z" fill="#1B3F2E"/>
+  <path d="M0 405 Q220 375 440 410 T800 390 L800 500 L0 500 Z" fill="#143022"/>
+  <polygon points="150,415 215,310 280,415" fill="#D99B26"/>
+  <polygon points="215,310 245,415 280,415" fill="#B57B14"/>
+  <polygon points="215,355 200,415 230,415" fill="#143022"/>
+  <polygon points="390,425 465,305 540,425" fill="#F2E8CF"/>
+  <polygon points="465,305 500,425 540,425" fill="#D5C8A8"/>
+  <polygon points="465,355 448,425 482,425" fill="#1B3F2E"/>
+  <polygon points="85,400 110,335 135,400" fill="#0F261A"/>
+  <polygon points="620,410 650,320 680,410" fill="#0F261A"/>
+  <polygon points="665,415 700,305 735,415" fill="#0C2016"/>
+  <text x="42" y="64" fill="#F8F7F2" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Sierra de Grazalema · Campamento de Verano</text>
+</svg>
+

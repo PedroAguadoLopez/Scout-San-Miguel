@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#D8E8F2"/>
+  <circle cx="650" cy="105" r="44" fill="#F9C74F"/>
+  <path d="M0 310 L170 120 L330 270 L495 105 L665 265 L800 175 L800 500 L0 500 Z" fill="#507D8F"/>
+  <path d="M170 120 L132 180 L165 170 L185 190 L215 170 Z" fill="#F8F7F2"/>
+  <path d="M495 105 L452 170 L490 158 L515 178 L542 162 Z" fill="#F8F7F2"/>
+  <path d="M0 365 Q300 320 600 375 T800 360 L800 500 L0 500 Z" fill="#235E3D"/>
+  <polygon points="280,415 350,315 420,415" fill="#E07A5F"/>
+  <polygon points="445,420 515,320 585,420" fill="#D99B26"/>
+  <text x="42" y="64" fill="#102A3A" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Sierra de Cazorla · Campamento Nacional</text>
+</svg>
+

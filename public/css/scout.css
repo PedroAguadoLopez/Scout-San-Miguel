@@ -1,0 +1,198 @@
+:root {
+    --scout-primary: #1f5c3a;
+    --scout-primary-dark: #154028;
+    --scout-accent: #d99b26;
+    --scout-cream: #f8f7f2;
+    --scout-ink: #1f2924;
+    --bs-primary: #1f5c3a;
+    --bs-primary-rgb: 31, 92, 58;
+}
+
+body {
+    background-color: var(--scout-cream);
+    color: var(--scout-ink);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.navbar-scout {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(31, 92, 58, 0.12);
+}
+
+.navbar-scout .nav-link {
+    color: #35473d;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar-scout .nav-link:hover,
+.navbar-scout .nav-link.active {
+    color: var(--scout-primary);
+    background-color: rgba(31, 92, 58, 0.08);
+}
+
+.btn-scout {
+    background-color: var(--scout-primary);
+    border-color: var(--scout-primary);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-scout:hover,
+.btn-scout:focus {
+    background-color: var(--scout-primary-dark);
+    border-color: var(--scout-primary-dark);
+    color: #ffffff;
+}
+
+.btn-outline-scout {
+    border-color: var(--scout-primary);
+    color: var(--scout-primary);
+    font-weight: 600;
+}
+
+.btn-outline-scout:hover,
+.btn-outline-scout:focus {
+    background-color: var(--scout-primary);
+    border-color: var(--scout-primary);
+    color: #ffffff;
+}
+
+.hero-scout {
+    background: linear-gradient(135deg, #16442b 0%, #246843 65%, #2f7d52 100%);
+    color: #ffffff;
+    border-radius: 1.25rem;
+}
+
+.scout-card {
+    border: 1px solid rgba(31, 92, 58, 0.1);
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 18px rgba(21, 64, 40, 0.04);
+}
+
+.camp-card-img {
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.section-heading-line {
+    width: 3rem;
+    height: 4px;
+    background-color: var(--scout-accent);
+    border-radius: 999px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.calendar-weekday {
+    background-color: #f1f5f2;
+    color: var(--scout-primary-dark);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.65rem 0.5rem;
+    text-align: center;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.calendar-cell {
+    min-height: 112px;
+    padding: 0.45rem;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+.calendar-cell.is-outside {
+    background-color: #fafaf8;
+    color: #9aa59f;
+}
+
+.calendar-cell.is-today {
+    background-color: rgba(31, 92, 58, 0.05);
+}
+
+.calendar-day-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 999px;
+}
+
+.calendar-cell.is-today .calendar-day-num {
+    background-color: var(--scout-primary);
+    color: #ffffff;
+}
+
+.calendar-event-pill {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.35rem;
+    margin-top: 0.25rem;
+    border: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer-scout {
+    background-color: #153925;
+    color: #dbe6df;
+}
+
+.footer-scout a {
+    color: #f3e4c2;
+    text-decoration: none;
+}
+
+.footer-scout a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+    .calendar-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .calendar-weekday {
+        display: none;
+    }
+
+    .calendar-cell {
+        min-height: auto;
+    }
+
+    .calendar-cell.is-outside {
+        display: none;
+    }
+}
+

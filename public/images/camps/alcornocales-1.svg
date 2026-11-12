@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#CFE8D5"/>
+  <circle cx="130" cy="110" r="46" fill="#F9C74F" opacity="0.85"/>
+  <path d="M0 295 Q200 220 410 285 T800 270 L800 500 L0 500 Z" fill="#5E9A74"/>
+  <path d="M0 375 Q260 330 520 385 T800 365 L800 500 L0 500 Z" fill="#2C6B49"/>
+  <path d="M290 500 Q370 430 430 390 Q475 425 560 500 Z" fill="#D9B382"/>
+  <rect x="135" y="290" width="22" height="105" rx="6" fill="#6F4E37"/>
+  <circle cx="146" cy="255" r="65" fill="#1F5C3A"/>
+  <circle cx="105" cy="275" r="42" fill="#256D45"/>
+  <circle cx="185" cy="275" r="45" fill="#256D45"/>
+  <rect x="615" y="275" width="24" height="120" rx="6" fill="#6F4E37"/>
+  <circle cx="627" cy="240" r="70" fill="#1F5C3A"/>
+  <circle cx="585" cy="265" r="45" fill="#256D45"/>
+  <circle cx="670" cy="265" r="45" fill="#256D45"/>
+  <text x="42" y="64" fill="#143022" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Parque Natural de Los Alcornocales</text>
+</svg>
+

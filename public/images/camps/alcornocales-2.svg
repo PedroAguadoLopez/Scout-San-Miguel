@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#E3F2EC"/>
+  <path d="M0 240 L210 155 L430 235 L650 140 L800 215 L800 500 L0 500 Z" fill="#77AA8C"/>
+  <path d="M0 325 Q250 285 520 330 T800 310 L800 500 L0 500 Z" fill="#3B7A57"/>
+  <path d="M0 410 Q220 365 440 410 T800 400 L800 500 L0 500 Z" fill="#2C82A6"/>
+  <path d="M120 445 Q240 425 360 445" stroke="#A6D8EB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M460 455 Q580 435 700 455" stroke="#A6D8EB" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="240,340 285,260 330,340" fill="#D99B26"/>
+  <polygon points="340,345 385,270 430,345" fill="#F8F7F2"/>
+  <text x="42" y="64" fill="#143022" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Ruta de Senderismo y Río de la Miel</text>
+</svg>
+

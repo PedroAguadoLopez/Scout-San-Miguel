@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0F2233"/>
+  <circle cx="140" cy="85" r="2.5" fill="#FFF8DC"/>
+  <circle cx="240" cy="60" r="2" fill="#FFF8DC"/>
+  <circle cx="380" cy="95" r="3" fill="#FFF8DC"/>
+  <circle cx="510" cy="55" r="2" fill="#FFF8DC"/>
+  <circle cx="660" cy="90" r="3" fill="#FFF8DC"/>
+  <circle cx="715" cy="145" r="2" fill="#FFF8DC"/>
+  <path d="M645 75 A35 35 0 1 0 685 125 A28 28 0 1 1 645 75 Z" fill="#F7D488"/>
+  <path d="M0 320 L180 225 L360 310 L540 210 L800 320 L800 500 L0 500 Z" fill="#163547"/>
+  <path d="M0 390 Q400 350 800 390 L800 500 L0 500 Z" fill="#10251C"/>
+  <ellipse cx="400" cy="435" rx="75" ry="22" fill="#D99B26" opacity="0.25"/>
+  <rect x="372" y="425" width="56" height="12" rx="4" fill="#5C3A21"/>
+  <path d="M400 345 C422 375 432 405 400 426 C368 405 378 375 400 345Z" fill="#EF6C2F"/>
+  <path d="M400 368 C413 386 418 406 400 422 C382 406 387 386 400 368Z" fill="#F9C74F"/>
+  <polygon points="145,415 215,315 285,415" fill="#2A5842"/>
+  <polygon points="520,415 595,315 670,415" fill="#2A5842"/>
+  <text x="42" y="64" fill="#F8F7F2" font-family="system-ui, sans-serif" font-size="24" font-weight="700">Velada de Estrellas y Fuego de Campamento</text>
+</svg>
+
